@@ -22,10 +22,10 @@ footer {
     background-color:  #373738;
 }
 
-footer ul li {
+.footerUl li {
     display: inline-block;
     color: white;
-    width: 50px;
+    width: 200px;
     padding: 10px;
 }
 
@@ -126,13 +126,13 @@ nav ul li:hover{
         width: 600px;
     }
     .fisherPrice {
-        width: 500px;
+        width: 600px;
     }
     .abc {
-        width: 500px;
+        width: 600px;
     }
     .beyondBlue {
-        width: 500px;
+        width: 600px;
     }
 .fisherPrice img{
    object-fit: fill; 
@@ -178,3 +178,7 @@ nav ul li:hover{
         "beyondBlue"
         "fisherPrice";
     }
+}
+#connect {
+    font-size: larger;
+  }
