@@ -123,40 +123,36 @@ nav ul li:hover{
 }
 @media only screen and (max-width:600px){
     .workGrid{
-        width: 600px;
+        width: auto;
     }
     .fisherPrice {
-        width: 600px;
+        width: auto;
     }
     .abc {
-        width: 600px;
+        width: auto;
     }
     .beyondBlue {
-        width: 600px;
+        width: auto;
     }
-.fisherPrice img{
+    .fisherPrice img{
    object-fit: fill; 
-}
-}
-.abc img{
-    object-fit: fill; 
- }
-.beyondBlue img{
-    object-fit: fill; 
- }
- @media only screen and (max-width:600px){
-    .body{
-        width: 600px;
     }
+
+    .abc img{
+    object-fit: fill; 
+    }
+    .beyondBlue img{
+    object-fit: fill; 
+    }
+
     .abc img{
         grid-template-columns: 1fr;
         grid-template-rows: 300px;
         max-width: 400px;
         max-height: 550px;
         grid-template-areas: 
-        "abc"
-        "beyondBlue"
-        "fisherPrice";
+        "abc";
+       
     }
     .beyondBlue img{
         grid-template-columns: 1fr;
@@ -164,9 +160,7 @@ nav ul li:hover{
         max-width: 400px;
         max-height: 550px;
         grid-template-areas: 
-        "abc"
-        "beyondBlue"
-        "fisherPrice";
+        "beyondBlue";
     }
     .fisherPrice img{
         grid-template-columns: 1fr;
@@ -174,8 +168,9 @@ nav ul li:hover{
         max-width: 400px;
         max-height: 550px;
         grid-template-areas: 
-        "abc"
-        "beyondBlue"
         "fisherPrice";
     }
+}
+.myWork {
+    overflow: auto;
 }
