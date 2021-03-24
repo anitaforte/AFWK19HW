@@ -127,12 +127,15 @@ nav ul li:hover{
     }
     .fisherPrice {
         width: auto;
+        margin: 20px;
     }
     .abc {
         width: auto;
+        margin: 20px;
     }
     .beyondBlue {
         width: auto;
+        margin: 20px;
     }
     .fisherPrice img{
    object-fit: fill; 
